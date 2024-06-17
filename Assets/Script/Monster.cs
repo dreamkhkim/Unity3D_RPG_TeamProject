@@ -2,17 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Monster : MonoBehaviour
+public abstract class Monster : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    protected float hp;
+    protected float attackPower;
+    protected int defense;
+    protected int speed;
+    protected int experiencePoints;
+    protected string monsterName;
+    protected bool isDead;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
